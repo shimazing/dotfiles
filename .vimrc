@@ -20,6 +20,7 @@ Plugin 'slim-template/vim-slim'
 Plugin 'sophacles/vim-processing'
 Plugin 'simnalamburt/vim-rust'
 Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'rust-lang/rust.vim'
 call vundle#end()
 filetype plugin indent on
 "
@@ -50,8 +51,8 @@ set cindent
 set autoindent
 set smartindent
 " Tab
-set softtabstop=2
-set shiftwidth=2
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 " Searching
 set ignorecase
